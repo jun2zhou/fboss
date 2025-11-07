@@ -453,7 +453,7 @@ void PciExplorer::create(
   }
 
   XLOG(INFO) << fmt::format(
-      "Successfully created device {} at {} using {}. Args - deviceName: {} instanceId: {}, "
+      "x Successfully created device {} at {} using {}. Args - deviceName: {} instanceId: {}, "
       "csrOffset: {:#x}, iobufOffset: {:#x}",
       *fpgaIpBlockConfig.pmUnitScopedName(),
       *getPciSubDeviceIOBlockPath(pciDevice, fpgaIpBlockConfig, auxData.id.id),
